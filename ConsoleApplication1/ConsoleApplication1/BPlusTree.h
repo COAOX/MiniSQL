@@ -319,6 +319,7 @@ TreeNode<KeyType>* TreeNode<KeyType>::splite(KeyType& key)
             Values[i] = offsetNumber();
         }
     }
+	return newNode;
 }
 
 //----------------------------------------------------------
